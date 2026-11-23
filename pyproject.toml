@@ -1,0 +1,10 @@
+[project]
+name = "sec-sandbox-policy"
+version = "0.1.0"
+description = "GSB fail-closed sandbox policy bugfix challenge"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
